@@ -1,0 +1,191 @@
+ ,dive_ctd,sample_name,collection_method,sample_type,sample_identifier,filter,processing,location_name,depth_category,depth,fluid_origin,lat,long,pH,temp,prok,site,year
+Axial_BSW1500m_BSW1500m_2015,BSW1500m,Deep seawater,NA,background,NA,PES02_sterivex,HOG,Deep seawater,Background,1520,NA,46.27389,-129.79548,7.8,2,25000,Axial,2015
+Axial_AnemonePlume_AnemonePlume_2015,AnemonePlume,Anemone Plume,NA,plume,NA,PES02_sterivex,HOG,Anemone Plume,Plume,1500,NA,45.9335667,-130.013667,NA,NA,NA,Axial,2015
+Axial_Anemone_FS891_2013,FS891,Anemone,NA,vent,NA,PES02_sterivex,HOG,Anemone,Vent,1542,NA,45.9332,-130.0137,5.5,28.2,410000,Axial,2013
+Axial_Boca_FS905_2013,FS905,Boca,NA,vent,NA,PES02_sterivex,HOG,Boca,Vent,1516.9,NA,45.927692,-129.982482,6.88,6.8,850000,Axial,2013
+Axial_Dependable_FS900_2013,FS900,Dependable,NA,vent,NA,PES02_sterivex,HOG,Dependable,Vent,1912.8,NA,45.87992,-129.80294,6.19,50,170000,Axial,2013
+Axial_ElGuapo_FS896_2013,FS896,El Guapo,NA,vent,NA,PES02_sterivex,HOG,El Guapo,Vent,1502,NA,45.926575,-129.979479,5.42,25.7,168000,Axial,2013
+Axial_Marker113_FS903_2013,FS903,Marker113,NA,vent,NA,PES02_sterivex,HOG,Marker113,Vent,1520.3,NA,45.9227,-129.9882,6.17,24.8,460000,Axial,2013
+Axial_Marker113_FS906_2014,FS906,Marker113,NA,vent,NA,PES02_sterivex,HOG,Marker113,Vent,1518,NA,45.9227,-129.9882,5.8,24.3,680000,Axial,2014
+Axial_Marker113_FS915_2015,FS915,Marker113,NA,vent,NA,PES02_sterivex,HOG,Marker113,Vent,1520,NA,45.9227,-129.9882,6.6,25.4,1500000,Axial,2015
+Axial_Marker33_FS904_2013,FS904,Marker33,NA,vent,NA,PES02_sterivex,HOG,Marker33,Vent,1516,NA,45.9332,-129.9822,5.5,27.3,420000,Axial,2013
+Axial_Marker33_FS908_2014,FS908,Marker33,NA,vent,NA,PES02_sterivex,HOG,Marker33,Vent,1514,NA,45.9332,-129.9822,5.6,18.5,390000,Axial,2014
+Axial_N3Area_FS898_2013,FS898,N3Area,NA,vent,NA,PES02_sterivex,HOG,N3Area,Vent,1523,NA,45.943716,-129.985163,4.96,18.9,257000,Axial,2013
+Axial_Skadi_FS902_2013,FS902,Skadi,NA,vent,NA,PES02_sterivex,HOG,Skadi,Vent,1561.6,NA,45.923383,-129.982853,6.23,35.6,565000,Axial,2013
+Axial_Skadi_FS910_2014,FS910,Escargot,NA,vent,NA,PES02_sterivex,HOG,Escargot,Vent,1517,NA,45.9264,NA,5.84,6.6,NA,Axial,2014
+51_AGAGAA_S13,NA,labblank,blank,control,blank,PES02_sterivex,NA,labblank,Control,NA,blank,NA,NA,NA,NA,NA,control,2020
+64_CTRL_control_blank_shipboard_0_0_Jun2021,NA,shipboard,blank,control,blank,PES02_sterivex,NA,shipboard,Control,NA,blank,NA,NA,NA,NA,NA,control,2020
+75_CACCCT_S15,NA,shipboard,Control,control,Control,PES02_sterivex,NA,shipboard,Control,NA,Control,NA,NA,NA,NA,NA,control,2020
+GordaRidge_BSW020_sterivex_2019_REPa,BSW020,Deep seawater,NA,background,NA,PES02_sterivex,SUPR,Deep seawater,Background,2010,NA,42.7495125,-126.710294,7.8,1.8,39100,GordaRidge,2019
+GordaRidge_BSW056_sterivex_2019_REPb,BSW056,Deep seawater,NA,background,NA,PES02_sterivex,SUPR,Deep seawater,Background,2010,NA,42.76060928,-126.7047891,7.8,1.8,39100,GordaRidge,2019
+GordaRidge_BSW081_sterivex_2019,BSW081,Shallow seawater,NA,background,NA,PES02_sterivex,SUPR,Shallow seawater,Background,150,NA,42.7546,-126.743,NA,8.6,NA,GordaRidge,2019
+GordaRidge_Plume001_sterivex_2019_REPa,Plume001,Near vent BW,NA,background,NA,PES02_sterivex,SUPR,Near vent BW,Background,2745,NA,42.75500527,-126.709891,7.8,1.7,51959.11,GordaRidge,2019
+GordaRidge_Plume001_sterivex_2019_REPb,Plume001,Near vent BW,NA,background,NA,PES02_sterivex,SUPR,Near vent BW,Background,2745,NA,42.75500527,-126.709891,7.8,1.7,51959.11,GordaRidge,2019
+GordaRidge_Plume001_T0_2019_REP12,Plume001_T0,Near vent BW,NA,incubation,NA,PES02_sterivex,SUPR,Near vent BW,Incubation,2745,NA,42.75500527,-126.709891,NA,NA,NA,GordaRidge,2019
+GordaRidge_Plume001_T0_2019_REP34,Plume001_T0,Near vent BW,NA,incubation,NA,PES02_sterivex,SUPR,Near vent BW,Incubation,2745,NA,42.75500527,-126.709891,NA,NA,NA,GordaRidge,2019
+GordaRidge_Plume001_T24_2019_REP12,Plume001_T24,Near vent BW,NA,incubation,NA,PES02_sterivex,SUPR,Near vent BW,Incubation,2745,NA,42.75500527,-126.709891,NA,NA,NA,GordaRidge,2019
+GordaRidge_Plume001_T36_2019_REP12,Plume001_T36,Near vent BW,NA,incubation,NA,PES02_sterivex,SUPR,Near vent BW,Incubation,2745,NA,42.75500527,-126.709891,NA,NA,NA,GordaRidge,2019
+GordaRidge_Vent013_T0_2019_REP13,Vent013_T0,Mt Edwards,NA,incubation,NA,PES02_sterivex,SUPR,Mt Edwards,Incubation,2707,NA,42.754692,-126.7090115,NA,NA,NA,GordaRidge,2019
+GordaRidge_Vent013_T36_2019_REP12,Vent013_T36,Mt Edwards,NA,incubation,NA,PES02_sterivex,SUPR,Mt Edwards,Incubation,2707,NA,42.754692,-126.7090115,NA,NA,NA,GordaRidge,2019
+GordaRidge_Vent013_T36_2019_REP34,Vent013_T36,Mt Edwards,NA,incubation,NA,PES02_sterivex,SUPR,Mt Edwards,Incubation,2707,NA,42.754692,-126.7090115,NA,NA,NA,GordaRidge,2019
+GordaRidge_Vent043_T0_2019_REP13,Vent043_T0,Venti Latte,NA,incubation,NA,PES02_sterivex,SUPR,Venti Latte,Incubation,2708,NA,42.7548145,-126.7088945,NA,NA,NA,GordaRidge,2019
+GordaRidge_Vent043_T36_2019_REP13,Vent043_T36,Venti Latte,NA,incubation,NA,PES02_sterivex,SUPR,Venti Latte,Incubation,2708,NA,42.7548145,-126.7088945,NA,NA,NA,GordaRidge,2019
+GordaRidge_Vent090_T24_2019,Vent090_T24,Candelabra,NA,incubation,NA,PES02_sterivex,SUPR,Candelabra,Incubation,2730,NA,42.75506794,-126.709613,NA,NA,NA,GordaRidge,2019
+GordaRidge_Vent110_T24_2019,Vent110_T24,Sir Ventsalot,NA,incubation,NA,PES02_sterivex,SUPR,Sir Ventsalot,Incubation,2732,NA,42.76131802,-126.7054541,NA,NA,NA,GordaRidge,2019
+GordaRidge_Plume036_sterivex_2019_REPb,Plume036,Candelabra Plume,NA,plume,NA,PES02_sterivex,SUPR,Candelabra Plume,Plume,2725,NA,42.7551105,-126.709442,NA,1.7,76900,GordaRidge,2019
+GordaRidge_Plume096_sterivex_2019,Plume096,Mt Edwards Plume,NA,plume,NA,PES02_sterivex,SUPR,Mt Edwards Plume,Plume,2707,NA,42.75465646,-126.7091669,NA,1.8,NA,GordaRidge,2019
+GordaRidge_Vent009_SUPRS1_2019,Vent009,Mt Edwards,NA,vent,NA,PES02_sterivex,SUPR,Mt Edwards,Vent,2707,NA,42.75464576,-126.7090451,6,40,51439.52,GordaRidge,2019
+GordaRidge_Vent010_SUPRS2_2019,Vent010,Mt Edwards,NA,vent,NA,PES02_sterivex,SUPR,Mt Edwards,Vent,2707,NA,42.754692,-126.7090115,6,40,51439.52,GordaRidge,2019
+GordaRidge_Vent011_SUPRS3_2019,Vent011,Mt Edwards,NA,vent,NA,PES02_sterivex,SUPR,Mt Edwards,Vent,2707,NA,42.754692,-126.7090115,6,40,51439.52,GordaRidge,2019
+GordaRidge_Vent039_SUPRS1_2019,Vent039,Venti Latte,NA,vent,NA,PES02_sterivex,SUPR,Venti Latte,Vent,2708,NA,42.7548145,-126.7088945,6.4,11,111192.5,GordaRidge,2019
+GordaRidge_Vent040_SUPRS2_2019,Vent040,Venti Latte,NA,vent,NA,PES02_sterivex,SUPR,Venti Latte,Vent,2708,NA,42.754858,-126.708922,6.4,11,111192.5,GordaRidge,2019
+GordaRidge_Vent041_SUPRS3_2019,Vent041,Venti Latte,NA,vent,NA,PES02_sterivex,SUPR,Venti Latte,Vent,2708,NA,42.754858,-126.708922,6.4,11,111192.5,GordaRidge,2019
+GordaRidge_Vent086_SUPRS1_2019,Vent086,Candelabra,NA,vent,NA,PES02_sterivex,SUPR,Candelabra,Vent,2730,NA,42.75506794,-126.709613,5.5,79,55076.66,GordaRidge,2019
+GordaRidge_Vent087_SUPRS2_2019,Vent087,Candelabra,NA,vent,NA,PES02_sterivex,SUPR,Candelabra,Vent,2730,NA,42.75503414,-126.7094585,5.5,79,55076.66,GordaRidge,2019
+GordaRidge_Vent088_SUPRS3_2019,Vent088,Candelabra,NA,vent,NA,PES02_sterivex,SUPR,Candelabra,Vent,2730,NA,42.75503414,-126.7094585,5.5,79,55076.66,GordaRidge,2019
+GordaRidge_Vent105_SUPRS9_2019,Vent105,Sir Ventsalot,NA,vent,NA,PES02_sterivex,SUPR,Sir Ventsalot,Vent,2732,NA,42.761202,-126.7054775,NA,72,52998.29,GordaRidge,2019
+GordaRidge_Vent106_SUPRS10_2019,Vent106,Sir Ventsalot,NA,vent,NA,PES02_sterivex,SUPR,Sir Ventsalot,Vent,2732,NA,42.76131802,-126.7054541,NA,72,52998.29,GordaRidge,2019
+GordaRidge_Vent107_SUPRS11_2019,Vent107,Sir Ventsalot,NA,vent,NA,PES02_sterivex,SUPR,Sir Ventsalot,Vent,2732,NA,42.76131802,-126.7054541,NA,72,52998.29,GordaRidge,2019
+Axial_ExtractControl_CTRL_2019,Control,Control,NA,control,NA,PES02_sterivex,HOG,Control,Control,NA,NA,NA,NA,NA,NA,NA,Laboratory,2019
+GordaRidge_Shipblank_CTRL_2019_S31,Control,Control,NA,control,NA,PES02_sterivex,SUPR,Control,Control,NA,NA,NA,NA,NA,NA,NA,Laboratory,2019
+GordaRidge_Shipblank_CTRL_2019_S32,Control,Control,NA,control,NA,PES02_sterivex,SUPR,Control,Control,NA,NA,NA,NA,NA,NA,NA,Laboratory,2019
+GordaRidge_Shipblank_CTRL_2019_S33,Control,Control,NA,control,NA,PES02_sterivex,SUPR,Control,Control,NA,NA,NA,NA,NA,NA,NA,Laboratory,2019
+62_TAACAC_S14,NA,Quakeplume,CTD,background,CTD,PES02_sterivex,NA,Quakeplume,Background,4200,CTD,18.54798,-81.71818,NA,4.34,NA,Piccard,2020
+73_MCR_Piccard_CTD_BSW_CTD005_0_Jun2021,NA,BSW,CTD,background,CTD,PES02_sterivex,HOG,BSW,Background,4776,CTD,18.54798,-81.71818,NA,4.46,11860.187,Piccard,2020
+52_MCR_Piccard_expTf_LotsOShrimp_A_0_Jun2021,NA,LotsOShrimp,expTf,incubation,expTf,PES02_sterivex,HOG,LotsOShrimp,Incubation,NA,expTf,NA,NA,NA,NA,NA,Piccard,2020
+53_MCR_Piccard_expTf_LotsOShrimp_B_0_Jun2021,NA,LotsOShrimp,expTf,incubation,expTf,PES02_sterivex,HOG,LotsOShrimp,Incubation,NA,expTf,NA,NA,NA,NA,NA,Piccard,2020
+56_MCR_Piccard_expTf_Plume_0_5_Jun2021,NA,Plume,expTf,incubation,expTf,PES02_sterivex,HOG,Plume,Incubation,NA,expTf,NA,NA,NA,NA,NA,Piccard,2020
+57_MCR_Piccard_expTf_Shrimpocalypse_0_0_Jun2021,NA,Shrimpocalypse,expTf,incubation,expTf,PES02_sterivex,HOG,Shrimpocalypse,Incubation,NA,expTf,NA,NA,NA,NA,NA,Piccard,2020
+74_MCR_Piccard_CTD_Plume_CTD004_5_Jun2021,NA,Plume,CTD,plume,CTD,PES02_sterivex,HOG,Plume,Plume,4944,CTD,18.546767,-81.7182,NA,4.46,51429.13,Piccard,2020
+68_MCR_Piccard_HOG_LotsOShrimp_J21242HOG14_0_Jun2021,NA,LotsOShrimp,HOG,vent,HOG,PES02_sterivex,HOG,LotsOShrimp,Vent,4967,HOG,18.546789,-81.718356,6.32,19,53878.136,Piccard,2020
+77_MCR_Piccard_HOG_Shrimpocalypse_J21240HOG14_0_Jun2021,NA,Shrimpocalypse,HOG,vent,HOG,PES02_sterivex,HOG,Shrimpocalypse,Vent,4945,HOG,18.546674,-81.717806,5.11,85,238585.68,Piccard,2020
+78_MCR_Piccard_HOG_LotsOShrimp_J21241HOG14_0_Jun2021,NA,LotsOShrimp,HOG,vent,HOG,PES02_sterivex,HOG,LotsOShrimp,Vent,4967,HOG,18.546789,-81.718356,5.92,36,53878.136,Piccard,2020
+100_GR_substrate_MC3_Quartz2_6_0_Jun2021,NA,Quartz2,MC3,microcolonizer,MC3,PES02_sterivex,Microcolonizer,Quartz2,Microcolonizer,NA,MC3,NA,NA,NA,NA,NA,substrate,2019
+101_GR_substrate_MC3_Riftia_6_0_Jun2021,NA,Riftia,MC3,microcolonizer,MC3,PES02_sterivex,Microcolonizer,Riftia,Microcolonizer,NA,MC3,NA,NA,NA,NA,NA,substrate,2019
+102_GR_substrate_MC3_Shell_6_5_Jun2021,NA,Shell,MC3,microcolonizer,MC3,PES02_sterivex,Microcolonizer,Shell,Microcolonizer,NA,MC3,NA,NA,NA,NA,NA,substrate,2019
+81_AAAGTT_S16,NA,Quartz2,blank,control,blank,PES02_sterivex,NA,Quartz2,Microcolonizer,NA,blank,NA,NA,NA,NA,NA,substrate,2019
+82_CGTGCA_S17,NA,Riftia,blank,control,blank,PES02_sterivex,NA,Riftia,Microcolonizer,NA,blank,NA,NA,NA,NA,NA,substrate,2019
+83_CCGAAC_S18,NA,Shell,blank,control,blank,PES02_sterivex,NA,Shell,Microcolonizer,NA,blank,NA,NA,NA,NA,NA,substrate,2019
+84_GR_substrate_MC1_Quartz2_7_0_Jun2021,NA,Quartz2,MC1,microcolonizer,MC1,PES02_sterivex,Microcolonizer,Quartz2,Microcolonizer,NA,MC1,NA,NA,NA,NA,NA,substrate,2019
+85_GR_substrate_MC1_Riftia_7_0_Jun2021,NA,Riftia,MC1,microcolonizer,MC1,PES02_sterivex,Microcolonizer,Riftia,Microcolonizer,NA,MC1,NA,NA,NA,NA,NA,substrate,2019
+86_GR_substrate_MC1_Shell_7_5_Jun2021,NA,Shell,MC1,microcolonizer,MC1,PES02_sterivex,Microcolonizer,Shell,Microcolonizer,NA,MC1,NA,NA,NA,NA,NA,substrate,2019
+87_GR_substrate_MC4_Quartz2_7_0_Jun2021,NA,Quartz2,MC4,microcolonizer,MC4,PES02_sterivex,Microcolonizer,Quartz2,Microcolonizer,NA,MC4,NA,NA,NA,NA,NA,substrate,2019
+88_GR_substrate_MC4_Riftia_7_0_Jun2021,NA,Riftia,MC4,microcolonizer,MC4,PES02_sterivex,Microcolonizer,Riftia,Microcolonizer,NA,MC4,NA,NA,NA,NA,NA,substrate,2019
+89_GR_substrate_MC4_Shell_7_5_Jun2021,NA,Shell,MC4,microcolonizer,MC4,PES02_sterivex,Microcolonizer,Shell,Microcolonizer,NA,MC4,NA,NA,NA,NA,NA,substrate,2019
+90_GR_substrate_MC5_Quartz2_8_0_Jun2021,NA,Quartz2,MC5,microcolonizer,MC5,PES02_sterivex,Microcolonizer,Quartz2,Microcolonizer,NA,MC5,NA,NA,NA,NA,NA,substrate,2019
+91_GR_substrate_MC5_Riftia_8_0_Jun2021,NA,Riftia,MC5,microcolonizer,MC5,PES02_sterivex,Microcolonizer,Riftia,Microcolonizer,NA,MC5,NA,NA,NA,NA,NA,substrate,2019
+92_GR_substrate_MC5_Shell_8_5_Jun2021,NA,Shell,MC5,microcolonizer,MC5,PES02_sterivex,Microcolonizer,Shell,Microcolonizer,NA,MC5,NA,NA,NA,NA,NA,substrate,2019
+93_GR_substrate_MC6_Quartz2_8_0_Jun2021,NA,Quartz2,MC6,microcolonizer,MC6,PES02_sterivex,Microcolonizer,Quartz2,Microcolonizer,NA,MC6,NA,NA,NA,NA,NA,substrate,2019
+94_GR_substrate_MC6_Riftia_8_0_Jun2021,NA,Riftia,MC6,microcolonizer,MC6,PES02_sterivex,Microcolonizer,Riftia,Microcolonizer,NA,MC6,NA,NA,NA,NA,NA,substrate,2019
+95_GR_substrate_MC6_Shell_8_5_Jun2021,NA,Shell,MC6,microcolonizer,MC6,PES02_sterivex,Microcolonizer,Shell,Microcolonizer,NA,MC6,NA,NA,NA,NA,NA,substrate,2019
+96_GGCGAC_S19,NA,blank,blank,control,blank,PES02_sterivex,NA,blank,Microcolonizer,NA,blank,NA,NA,NA,NA,NA,substrate,2019
+97_GR_substrate_MC2_Quartz2_6_0_Jun2021,NA,Quartz2,MC2,microcolonizer,MC2,PES02_sterivex,Microcolonizer,Quartz2,Microcolonizer,NA,MC2,NA,NA,NA,NA,NA,substrate,2019
+98_GR_substrate_MC2_Riftia_6_0_Jun2021,NA,Riftia,MC2,microcolonizer,MC2,PES02_sterivex,Microcolonizer,Riftia,Microcolonizer,NA,MC2,NA,NA,NA,NA,NA,substrate,2019
+99_GR_substrate_MC2_Shell_6_5_Jun2021,NA,Shell,MC2,microcolonizer,MC2,PES02_sterivex,Microcolonizer,Shell,Microcolonizer,NA,MC2,NA,NA,NA,NA,NA,substrate,2019
+63_MCR_VonDamm_CTD_BSW_CTD002_0_Jun2021,NA,BSW,CTD,background,CTD,PES02_sterivex,HOG,BSW,Background,2400,CTD,18.374183,-81.781533,NA,4.181,34705.9161,VonDamm,2020
+54_MCR_VonDamm_expTf_MustardStand_0_0_Jun2021,NA,MustardStand,expTf,incubation,expTf,PES02_sterivex,HOG,MustardStand,Incubation,NA,expTf,NA,NA,NA,NA,NA,VonDamm,2020
+55_MCR_VonDamm_expTf_ShrimpHole_0_0_Jun2021,NA,ShrimpHole,expTf,incubation,expTf,PES02_sterivex,HOG,ShrimpHole,Incubation,NA,expTf,NA,NA,NA,NA,NA,VonDamm,2020
+58_MCR_VonDamm_expTf_Plume_0_0_Jun2021,NA,Plume,expTf,incubation,expTf,PES02_sterivex,HOG,Plume,Incubation,NA,expTf,NA,NA,NA,NA,NA,VonDamm,2020
+59_MCR_VonDamm_expTf_X18_0_0_Jun2021,NA,X18,expTf,incubation,expTf,PES02_sterivex,HOG,X18,Incubation,NA,expTf,NA,NA,NA,NA,NA,VonDamm,2020
+60_MCR_VonDamm_expTf_BSW_0_0_Jun2021,NA,BSW,expTf,incubation,expTf,PES02_sterivex,HOG,BSW,Incubation,NA,expTf,NA,NA,NA,NA,NA,VonDamm,2020
+61_MCR_VonDamm_expTf_Rav2_0_0_Jun2021,NA,Rav2,expTf,incubation,expTf,PES02_sterivex,HOG,Rav2,Incubation,NA,expTf,NA,NA,NA,NA,NA,VonDamm,2020
+65_MCR_VonDamm_CTD_Plume_CTD003_0_Jun2021,NA,Plume,CTD,plume,CTD,PES02_sterivex,HOG,Plume,Plume,1979,CTD,18.3776,-81.799317,NA,4.208,16478.313,VonDamm,2020
+66_MCR_VonDamm_HOG_ArrowLoop_J21243HOG18_5_Jun2021,NA,ArrowLoop,HOG,vent,HOG,PES02_sterivex,HOG,ArrowLoop,Vent,2309,HOG,18.376659,-81.797986,5.69,137,10369.792,VonDamm,2020
+67_MCR_VonDamm_HOG_WhiteCastle_J21235HOG12_5_Jun2021,NA,WhiteCastle,HOG,vent,HOG,PES02_sterivex,HOG,WhiteCastle,Vent,2307,HOG,18.377005,-81.798088,5.49,108,NA,VonDamm,2020
+69_MCR_VonDamm_HOG_MustardStand_J21243HOG14_5_Jun2021,NA,MustardStand,HOG,vent,HOG,PES02_sterivex,HOG,MustardStand,Vent,2374,HOG,18.37513,-81.797488,5.63,108,56677,VonDamm,2020
+70_MCR_VonDamm_HOG_Rav2_J21238HOG14_5_Jun2021,NA,Rav2,HOG,vent,HOG,PES02_sterivex,HOG,Rav2,Vent,2389.6,HOG,18.375112,-81.79718,5.81,94,NA,VonDamm,2020
+71_MCR_VonDamm_HOG_OldManTree_J21238HOG20_5_Jun2021,NA,OldManTree,HOG,vent,HOG,PES02_sterivex,HOG,OldManTree,Vent,2375.8,HOG,18.375069,-81.797678,5.69,121.6,NA,VonDamm,2020
+72_MCR_VonDamm_HOG_ShrimpHole_J21244HOG18_0_Jun2021,NA,ShrimpHole,HOG,vent,HOG,PES02_sterivex,HOG,ShrimpHole,Vent,2376,HOG,18.374893,-81.797441,7.72,21,NA,VonDamm,2020
+76_MCR_VonDamm_HOG_X18_J21235HOG20_0_Jun2021,NA,X18,HOG,vent,HOG,PES02_sterivex,HOG,X18,Vent,2377,HOG,18.37481,-81.797411,6.99,48,111429.781,VonDamm,2020
+79_MCR_VonDamm_HOG_Bartizan_J21244HOG12_5_Jun2021,NA,Bartizan,HOG,vent,HOG,PES02_sterivex,HOG,Bartizan,Vent,2307,HOG,18.798096,-81.377907,5.8,129,16163.441,VonDamm,2020
+80_MCR_VonDamm_HOG_Rav2_J21244HOG20_0_Jun2021,NA,Rav2,HOG,vent,HOG,PES02_sterivex,HOG,Rav2,Vent,2388.9,HOG,18.375254,-81.797176,5.81,98.2,NA,VonDamm,2020
+AXIAL_22_103_CTD005_IntlDistrict_CTD_plume_CTD005_PES02_SHIPBOARD_18S,CTD005,IntlDistrict,CTD,plume,CTD005,PES02,SHIPBOARD,International District,peak plume,1493,CTD005,45.92638333,-129.9799667,NA,NA,83700,Axial,2022
+AXIAL_22_105_J21434_Anemone_HFS_vent_1434HSF15_PES02_SHIPBOARD_18S,J21434,Anemone,HFS,vent,1434HSF15,PES02,SHIPBOARD,Anemone,diffuse,1540,1434HSF15,45.933592,-130.014068,NA,NA,NA,Axial,2022
+AXIAL_22_106_CTD005_IntlDistrict_CTD_plume_CTD005_PES02_SHIPBOARD_18S,CTD005,IntlDistrict,CTD,plume,CTD005,PES02,SHIPBOARD,International District,under plume,1505,CTD005,45.92638333,-129.9799667,NA,NA,92200,Axial,2022
+AXIAL_22_107_CTD005_IntlDistrict_CTD_plume_CTD005_PES02_SHIPBOARD_18S,CTD005,IntlDistrict,CTD,plume,CTD005,PES02,SHIPBOARD,International District,plume top,1492,CTD005,45.92638333,-129.9799667,NA,NA,NA,Axial,2022
+AXIAL_22_111_CTD003_ASHES_CTD_plume_CTD003_PES02_SHIPBOARD_18S,CTD003,ASHES,CTD,plume,CTD003,PES02,SHIPBOARD,ASHES,peak plume,1533,CTD003,45.925,-130.0495,NA,NA,NA,Axial,2022
+AXIAL_22_112_CTD003_ASHES_CTD_plume_CTD003_PES02_SHIPBOARD_18S,CTD003,ASHES,CTD,plume,CTD003,PES02,SHIPBOARD,ASHES,peak plume,1533,CTD003,45.925,-130.0495,NA,NA,NA,Axial,2022
+AXIAL_22_113_J21434_Anemone_HFS_vent_1434HSF6_PES02_INSITU_18S,J21434,Anemone,HFS,vent,1434HSF6,PES02,INSITU,Anemone,diffuse,1540,1434HSF6,45.933592,-130.014068,NA,34.3,NA,Axial,2022
+AXIAL_22_114_J21434_Anemone_HFS_vent_1434HSF7_PES02_INSITU_18S,J21434,Anemone,HFS,vent,1434HSF7,PES02,INSITU,Anemone,diffuse,1540,1434HSF7,45.933592,-130.014068,NA,34.7,NA,Axial,2022
+AXIAL_23_01blank_HUBERLAB_ControlTreatment_Lab_control_REP1_postPCR_SHIPBOARD_18S,HUBERLAB,ControlTreatment,Lab,control,REP1,postPCR,SHIPBOARD,Lab control,7162024,0,REP1,NA,NA,NA,NA,NA,Axial,2023
+AXIAL_23_02blank_HUBERLAB_ControlTreatment_Lab_control_REP2_postPCR_SHIPBOARD_18S,HUBERLAB,ControlTreatment,Lab,control,REP2,postPCR,SHIPBOARD,Lab control,7162024,0,REP2,NA,NA,NA,NA,NA,Axial,2023
+AXIAL_23_129_HUBERLAB_ControlTreatment_Lab_control__sterivex_SHIPBOARD_CTRL,HUBERLAB,ControlTreatment,Lab,control,NA,sterivex,SHIPBOARD,Lab control,6202024,0,NA,NA,NA,NA,NA,NA,Axial,2023
+AXIAL_23_130_J21505_BagCity_SUPR_vent_B316_sterivex_SHIPBOARD_18S,J21505,BagCity,SUPR,vent,B316,sterivex,SHIPBOARD,Bag City,diffuse,1528,B316,45.916228,-129.989225,NA,15,179000,Axial,2023
+AXIAL_23_133_J21503_Diva_SUPR_vent_SUPRbottle_sterivex_SHIPBOARD_18S,J21503,Diva,SUPR,vent,SUPRbottle,sterivex,SHIPBOARD,Diva,diffuse,1518,SUPRbottle,45.926378,-129.979065,NA,24,120000,Axial,2023
+AXIAL_23_134_J21502_Mkr33_UFO_vent_shipboard_sterivex_SHIPBOARD_18S,J21502,Mkr33,UFO,vent,shipboard,sterivex,SHIPBOARD,Marker 33,diffuse,1512,shipboard,45.933121,-129.982332,5.3,26,160000,Axial,2023
+AXIAL_23_136_J21499_Anemone_CTD_vent_N1N2N3_PES02_SHIPBOARD_18S,J21499,Anemone,CTD,vent,N1N2N3,PES02,SHIPBOARD,Anemone,above vent,1537,N1N2N3,45.933592,-130.014068,NA,2.43,112000,Axial,2023
+AXIAL_23_137_J21505_BagCity_SUPR_vent_F712_PES02_INSITU_18S,J21505,BagCity,SUPR,vent,F712,PES02,INSITU,Bag City,diffuse,1527,F712,45.916228,-129.989225,NA,NA,134000,Axial,2023
+AXIAL_23_137b_J21505_BagCity_SUPR_vent_F712_PES02_INSITU_16S,J21505,BagCity,SUPR,vent,F712,PES02,INSITU,Bag City,diffuse,1527,F712,45.916228,-129.989225,NA,NA,NA,Axial,2023
+AXIAL_23_138_J21501_Mkr113_UFO_vent_shipboard_sterivex_SHIPBOARD_18S,J21501,Mkr113,UFO,vent,shipboard,sterivex,SHIPBOARD,Marker 113,diffuse,1519,shipboard,45.933592,-130.014068,NA,11,127000,Axial,2023
+AXIAL_23_139_J21502_Mkr33_CTD_vent_N1N2N3_PES02_SHIPBOARD_18S,J21502,Mkr33,CTD,vent,N1N2N3,PES02,SHIPBOARD,Marker 33,above vent,1510,N1N2N3,45.933121,-129.982332,NA,2.17,238000,Axial,2023
+AXIAL_23_140_J21505_Vixen_SUPR_vent_F110_PES02_INSITU_18S,J21505,Vixen,SUPR,vent,F110,PES02,INSITU,Vixen,diffuse,1530,F110,45.917323,-129.992961,NA,NA,124000,Axial,2023
+AXIAL_23_140b_J21505_Vixen_SUPR_vent_F110_PES02_INSITU_16S,J21505,Vixen,SUPR,vent,F110,PES02,INSITU,Vixen,diffuse,1530,F110,45.917323,-129.992961,NA,NA,NA,Axial,2023
+AXIAL_23_142_J21499_Anemone_CTD_vent_N1N2N3_PES02_SHIPBOARD_18S,J21499,Anemone,CTD,vent,N1N2N3,PES02,SHIPBOARD,Anemone,above vent,1537,N1N2N3,45.933592,-130.014068,NA,2.46,112000,Axial,2023
+AXIAL_23_143_J21503_Diva_UFO_control_ControlTreatment_sterivex_INSITU_CTRL,J21503,Diva,UFO,control,ControlTreatment,sterivex,INSITU,Diva,UFO,0,ControlTreatment,45.926378,-129.979065,NA,NA,NA,Axial,2023
+AXIAL_23_144_J21506_Gollum_SUPR_vent_F1106_PES02_INSITU_18S,J21506,Gollum,SUPR,vent,F1106,PES02,INSITU,Gollum,diffuse,1539,F1106,45.93353198,-130.0132774,NA,12,141000,Axial,2023
+AXIAL_23_144b_J21506_Gollum_SUPR_vent_F1106_PES02_INSITU_16S,J21506,Gollum,SUPR,vent,F1106,PES02,INSITU,Gollum,diffuse,1539,F1106,45.93353198,-130.0132774,NA,NA,170000,Axial,2023
+AXIAL_23_145_J21501_Mkr113_CTD_vent_N1N2N3_PES02_SHIPBOARD_18S,J21501,Mkr113,CTD,vent,N1N2N3,PES02,SHIPBOARD,Marker 113,above vent,1516,N1N2N3,45.933592,-130.014068,NA,2.2,89000,Axial,2023
+AXIAL_23_146_J21501_Mkr113_UFO_vent_F113_sterivex_INSITU_18S,J21501,Mkr113,UFO,vent,F113,sterivex,INSITU,Marker 113,diffuse,1519,F113,45.933592,-130.014068,NA,11,NA,Axial,2023
+AXIAL_23_147_CTD002_ASHES_CTD_plume_Niskin_PES02_SHIPBOARD_18S,CTD002,ASHES,CTD,plume,Niskin,PES02,SHIPBOARD,ASHES,30m above,1467,Niskin,45.933497,-130.013489,NA,NA,60900,Axial,2023
+AXIAL_23_148_CTD004_IntlDist_CTD_plume_Niskin_PES02_SHIPBOARD_18S,CTD004,IntlDist,CTD,plume,Niskin,PES02,SHIPBOARD,International District,30m above,1459,Niskin,45.92638333,-129.9799667,NA,NA,80600,Axial,2023
+AXIAL_23_149_J21505_BagCity_SUPR_vent_F813_PES02_INSITU_18S,J21505,BagCity,SUPR,vent,F813,PES02,INSITU,Bag City,diffuse,1527,F813,45.916228,-129.989225,NA,NA,NA,Axial,2023
+AXIAL_23_149b_J21505_BagCity_SUPR_vent_F813_PES02_INSITU_16S,J21505,BagCity,SUPR,vent,F813,PES02,INSITU,Bag City,diffuse,1527,F813,45.916228,-129.989225,NA,NA,NA,Axial,2023
+AXIAL_23_150_J21503_Diva_SUPR_vent_F1117_PES02_INSITU_18S,J21503,Diva,SUPR,vent,F1117,PES02,INSITU,Diva,diffuse,1518,F1117,45.926378,-129.979065,NA,NA,NA,Axial,2023
+AXIAL_23_150b_J21503_Diva_SUPR_vent_F1117_PES02_INSITU_16S,J21503,Diva,SUPR,vent,F1117,PES02,INSITU,Diva,diffuse,1518,F1117,45.926378,-129.979065,NA,NA,NA,Axial,2023
+AXIAL_23_151_J21506_Gollum_SUPR_vent_F1207_PES02_INSITU_18S,J21506,Gollum,SUPR,vent,F1207,PES02,INSITU,Gollum,diffuse,1539,F1207,45.93353198,-130.0132774,NA,29,NA,Axial,2023
+AXIAL_23_151b_J21506_Gollum_SUPR_vent_F1207_PES02_INSITU_16S,J21506,Gollum,SUPR,vent,F1207,PES02,INSITU,Gollum,diffuse,1539,F1207,45.93353198,-130.0132774,NA,NA,NA,Axial,2023
+AXIAL_23_152_J21501_Mkr113_UFO_vent_F214_sterivex_INSITU_18S,J21501,Mkr113,UFO,vent,F214,sterivex,INSITU,Marker 113,diffuse,1519,F214,45.933592,-130.014068,6.1,32,NA,Axial,2023
+AXIAL_23_153_J21501_Mkr113_CTD_vent_N1N2N3_PES02_SHIPBOARD_18S,J21501,Mkr113,CTD,vent,N1N2N3,PES02,SHIPBOARD,Marker 113,above vent,1516,N1N2N3,45.933592,-130.014068,NA,NA,114000,Axial,2023
+AXIAL_23_154_J21505_Mkr113_SUPR_vent_F1206_PES02_INSITU_18S,J21505,Mkr113,SUPR,vent,F1206,PES02,INSITU,Marker 113,diffuse,1519,F1206,45.933592,-130.014068,NA,NA,NA,Axial,2023
+AXIAL_23_154b_J21505_Mkr113_SUPR_vent_F1206_PES02_INSITU_16S,J21505,Mkr113,SUPR,vent,F1206,PES02,INSITU,Marker 113,diffuse,1519,F1206,45.933592,-130.014068,NA,NA,NA,Axial,2023
+AXIAL_23_155_J21504_Mkr33_SUPR_vent_F1112_PES02_INSITU_18S,J21504,Mkr33,SUPR,vent,F1112,PES02,INSITU,Marker 33,diffuse,1512,F1112,45.933121,-129.982332,NA,NA,195000,Axial,2023
+AXIAL_23_155b_J21504_Mkr33_SUPR_vent_F1112_PES02_INSITU_16S,J21504,Mkr33,SUPR,vent,F1112,PES02,INSITU,Marker 33,diffuse,1512,F1112,45.933121,-129.982332,5.7,22,140000,Axial,2023
+AXIAL_23_156_CTD002_ASHES_CTD_plume_Niskin_PES02_SHIPBOARD_18S,CTD002,ASHES,CTD,plume,Niskin,PES02,SHIPBOARD,ASHES,oxycline,375,Niskin,45.933497,-130.013489,NA,NA,149000,Axial,2023
+AXIAL_23_157_J21506_SoupyBSW_SUPR_background_F205_GFF_INSITU_18S,J21506,SoupyBSW,SUPR,background,F205,GFF,INSITU,Soupy background,background,1539,F205,45.93342603,-130.0132852,NA,NA,NA,Axial,2023
+AXIAL_23_158_CTD002_ASHES_CTD_plume_Niskin_PES02_SHIPBOARD_18S,CTD002,ASHES,CTD,plume,Niskin,PES02,SHIPBOARD,ASHES,under plume,1530,Niskin,45.933497,-130.013489,NA,NA,95000,Axial,2023
+AXIAL_23_159_J21506_SoupyBSW_SUPR_background_F112_PES02_INSITU_18S,J21506,SoupyBSW,SUPR,background,F112,PES02,INSITU,Soupy background,background,1535,F112,45.93324609,-130.0138241,NA,2,NA,Axial,2023
+AXIAL_23_160_J21504_Background_UFO_background_F716_sterivex_INSITU_18S,J21504,Background,UFO,background,F716,sterivex,INSITU,Background,background,1300,F716,45.9334015,-129.981957,NA,2.39,NA,Axial,2023
+AXIAL_23_161_CTD004_IntlDist_CTD_plume_Niskin_sterivex_SHIPBOARD_18S,CTD004,IntlDist,CTD,plume,Niskin,sterivex,SHIPBOARD,International District,peak plume,1498,Niskin,45.92638333,-129.9799667,NA,NA,52800,Axial,2023
+AXIAL_23_162_J21503_Diva_SUPR_vent_F1214_PES02_INSITU_18S,J21503,Diva,SUPR,vent,F1214,PES02,INSITU,Diva,diffuse,1518,F1214,45.926378,-129.979065,NA,23,NA,Axial,2023
+AXIAL_23_162b_J21503_Diva_SUPR_vent_F1214_PES02_INSITU_16S,J21503,Diva,SUPR,vent,F1214,PES02,INSITU,Diva,diffuse,1518,F1214,45.926378,-129.979065,NA,NA,NA,Axial,2023
+AXIAL_23_163_Control_ControlTreatment_Lab_control_shipboard_PES02_SHIPBOARD_CTRL,Control,ControlTreatment,Lab,control,shipboard,PES02,SHIPBOARD,Lab control,control,0,shipboard,NA,NA,NA,NA,NA,Axial,2023
+AXIAL_23_164_J21502_Mkr33_UFO_vent_F8_sterivex_INSITU_18S,J21502,Mkr33,UFO,vent,F8,sterivex,INSITU,Marker 33,diffuse,1510,F8,45.933121,-129.982332,NA,NA,NA,Axial,2023
+AXIAL_23_165_CTD002_ASHES_CTD_plume_Niskin_PES02_SHIPBOARD_18S,CTD002,ASHES,CTD,plume,Niskin,PES02,SHIPBOARD,ASHES,30m above,1467,Niskin,45.933497,-130.013489,NA,NA,116000,Axial,2023
+AXIAL_23_166_CTD004_IntlDist_CTD_plume_Niskin_PES02_SHIPBOARD_18S,CTD004,IntlDist,CTD,plume,Niskin,PES02,SHIPBOARD,International District,30m above,1459,Niskin,45.92638333,-129.9799667,NA,NA,20500,Axial,2023
+AXIAL_23_167_J21500_Anemone_UFO_vent_F101_sterivex_INSITU_18S,J21500,Anemone,UFO,vent,F101,sterivex,INSITU,Anemone,diffuse,1539,F101,45.933592,-130.014068,NA,NA,NA,Axial,2023
+AXIAL_23_168_J21500_Anemone_UFO_vent_F203_sterivex_INSITU_18S,J21500,Anemone,UFO,vent,F203,sterivex,INSITU,Anemone,diffuse,1539,F203,45.933592,-130.014068,NA,23,NA,Axial,2023
+AXIAL_23_169_J21500_Anemone_UFO_vent_BgreenBblueByellow_sterivex_SHIPBOARD_18S,J21500,Anemone,UFO,vent,BgreenBblueByellow,sterivex,SHIPBOARD,Anemone,diffuse,1538,BgreenBblueByellow,45.933592,-130.014068,NA,NA,124000,Axial,2023
+AXIAL_23_170_J21500_Anemone_UFO_vent_Bbrownbred_sterivex_SHIPBOARD_18S,J21500,Anemone,UFO,vent,Bbrownbred,sterivex,SHIPBOARD,Anemone,diffuse,1539,Bbrownbred,45.933592,-130.014068,NA,NA,169000,Axial,2023
+AXIAL_23_171_J21505_BagCity_SUPR_vent_F914_GFF_INSITU_18S,J21505,BagCity,SUPR,vent,F914,GFF,INSITU,Bag City,diffuse,1527,F914,45.916228,-129.989225,NA,NA,NA,Axial,2023
+AXIAL_23_172_J21505_BagCity_SUPR_vent_F1015_GFF_INSITU_18S,J21505,BagCity,SUPR,vent,F1015,GFF,INSITU,Bag City,diffuse,1527,F1015,45.916228,-129.989225,NA,16,NA,Axial,2023
+AXIAL_23_173_CTD004_IntlDist_CTD_plume_Niskin_PES02_SHIPBOARD_18S,CTD004,IntlDist,CTD,plume,Niskin,PES02,SHIPBOARD,International District,under plume,1508,Niskin,45.92638333,-129.9799667,NA,NA,40500,Axial,2023
+AXIAL_23_175_J21506_Gollum_SUPR_vent_F1308_GFF_INSITU_18S,J21506,Gollum,SUPR,vent,F1308,GFF,INSITU,Gollum,diffuse,1539,F1308,45.93353198,-130.0132774,NA,NA,NA,Axial,2023
+AXIAL_23_176_J21506_Gollum_SUPR_vent_F1409_GFF_INSITU_18S,J21506,Gollum,SUPR,vent,F1409,GFF,INSITU,Gollum,diffuse,1539,F1409,45.93353198,-130.0132774,NA,NA,NA,Axial,2023
+AXIAL_23_177_J21503_Diva_SUPR_vent_F1416_GFF_INSITU_18S,J21503,Diva,SUPR,vent,F1416,GFF,INSITU,Diva,diffuse,1518,F1416,45.926378,-129.979065,NA,NA,NA,Axial,2023
+AXIAL_23_178_J21503_Diva_UFO_vent_UFO_sterivex_INSITU_18S,J21503,Diva,UFO,vent,UFO,sterivex,INSITU,Diva,diffuse,1518,UFO,45.926378,-129.979065,NA,NA,180000,Axial,2023
+AXIAL_23_179_J21505_BSW_UFO_background_F_sterivex_INSITU_18S,J21505,BSW,UFO,background,F,sterivex,INSITU,Background,background,1400,F,45.9334015,-129.981957,NA,NA,NA,Axial,2023
+AXIAL_23_180_J21504_Mkr33_SUPR_vent_F1214_PES02_INSITU_18S,J21504,Mkr33,SUPR,vent,F1214,PES02,INSITU,Marker 33,diffuse,1512,F1214,45.933121,-129.982332,NA,24,141000,Axial,2023
+AXIAL_23_180b_J21504_Mkr33_SUPR_vent_F1214_PES02_INSITU_16S,J21504,Mkr33,SUPR,vent,F1214,PES02,INSITU,Marker 33,diffuse,1512,F1214,45.933121,-129.982332,NA,NA,NA,Axial,2023
+AXIAL_23_181_J21504_Mkr33_SUPR_vent_F1313_GFF_INSITU_18S,J21504,Mkr33,SUPR,vent,F1313,GFF,INSITU,Marker 33,diffuse,1512,F1313,45.933121,-129.982332,NA,NA,NA,Axial,2023
+AXIAL_23_182_J21504_Mkr33_SUPR_vent_F1411_GFF_INSITU_18S,J21504,Mkr33,SUPR,vent,F1411,GFF,INSITU,Marker 33,diffuse,1512,F1411,45.933121,-129.982332,NA,NA,NA,Axial,2023
+AXIAL_23_183_J21505_Mkr113_SUPR_vent_F1307_GFF_INSITU_18S,J21505,Mkr113,SUPR,vent,F1307,GFF,INSITU,Marker 113,diffuse,1519,F1307,45.933592,-130.014068,NA,NA,NA,Axial,2023
+AXIAL_23_184_J21505_Mkr113_SUPR_vent_F1407_GFF_INSITU_18S,J21505,Mkr113,SUPR,vent,F1407,GFF,INSITU,Marker 113,diffuse,1519,F1407,45.933592,-130.014068,NA,NA,NA,Axial,2023
+AXIAL_23_185_J21505_Mkr113_SUPR_vent_F1105_PES02_INSITU_18S,J21505,Mkr113,SUPR,vent,F1105,PES02,INSITU,Marker 113,diffuse,1519,F1105,45.933592,-130.014068,NA,NA,NA,Axial,2023
+AXIAL_23_185b_J21505_Mkr113_SUPR_vent_F1105_PES02_INSITU_16S,J21505,Mkr113,SUPR,vent,F1105,PES02,INSITU,Marker 113,diffuse,1519,F1105,45.933592,-130.014068,NA,NA,NA,Axial,2023
+AXIAL_23_186_J21505_Vixen_SUPR_vent_F211_GFF_INSITU_18S,J21505,Vixen,SUPR,vent,F211,GFF,INSITU,Vixen,diffuse,1530,F211,45.917323,-129.992961,NA,NA,NA,Axial,2023
+AXIAL_23_187_J21502_Mkr33_CTD_vent_N1N2N3_PES02_SHIPBOARD_18S,J21502,Mkr33,CTD,vent,N1N2N3,PES02,SHIPBOARD,Marker 33,above vent,1510,N1N2N3,45.933121,-129.982332,NA,NA,344000,Axial,2023
+AXIAL_23_188_J21502_Mkr33_CTD_vent_N1N2N3_PES02_SHIPBOARD_18S,J21502,Mkr33,CTD,vent,N1N2N3,PES02,SHIPBOARD,Marker 33,above vent,1510,N1N2N3,45.933121,-129.982332,NA,NA,NA,Axial,2023
+AXIAL_23_189_CTD002_ASHES_CTD_plume_Niskin_PES02_SHIPBOARD_18S,CTD002,ASHES,CTD,plume,Niskin,PES02,SHIPBOARD,ASHES,euphotic,200,Niskin,45.933497,-130.013489,NA,NA,53700,Axial,2023
+AXIAL_23_190_CTD002_ASHES_CTD_plume_Niskin_PES02_SHIPBOARD_18S,CTD002,ASHES,CTD,plume,Niskin,PES02,SHIPBOARD,ASHES,euphotic,200,Niskin,45.933497,-130.013489,NA,NA,235000,Axial,2023
+AXIAL_23_191_CTD002_ASHES_CTD_plume_Niskin_PES02_SHIPBOARD_18S,CTD002,ASHES,CTD,plume,Niskin,PES02,SHIPBOARD,ASHES,oxycline,375,Niskin,45.933497,-130.013489,NA,NA,146000,Axial,2023
+AXIAL_23_192_CTD002_ASHES_CTD_plume_Niskin_PES02_SHIPBOARD_18S,CTD002,ASHES,CTD,plume,Niskin,PES02,SHIPBOARD,ASHES,peak plume,1512,Niskin,45.933497,-130.013489,NA,NA,98000,Axial,2023
+AXIAL_23_193_CTD002_ASHES_CTD_plume_Niskin_PES02_SHIPBOARD_18S,CTD002,ASHES,CTD,plume,Niskin,PES02,SHIPBOARD,ASHES,peak plume,1512,Niskin,45.933497,-130.013489,NA,NA,121000,Axial,2023
+AXIAL_23_194_CTD002_ASHES_CTD_plume_Niskin_PES02_SHIPBOARD_18S,CTD002,ASHES,CTD,plume,Niskin,PES02,SHIPBOARD,ASHES,plume top,1497,Niskin,45.933497,-130.013489,NA,NA,84000,Axial,2023
+AXIAL_23_195_CTD002_ASHES_CTD_plume_Niskin_PES02_SHIPBOARD_18S,CTD002,ASHES,CTD,plume,Niskin,PES02,SHIPBOARD,ASHES,plume top,1497,Niskin,45.933497,-130.013489,NA,NA,101000,Axial,2023
+AXIAL_23_196_CTD002_ASHES_CTD_plume_Niskin_PES02_SHIPBOARD_18S,CTD002,ASHES,CTD,plume,Niskin,PES02,SHIPBOARD,ASHES,under plume,1530,Niskin,45.933497,-130.013489,NA,NA,67700,Axial,2023
+AXIAL_23_197_CTD003_Background_CTD_background_REP1_PES02_SHIPBOARD_18S,CTD003,Background,CTD,background,REP1,PES02,SHIPBOARD,Background,background,1200,REP1,45.925,-130.0495,NA,NA,81900,Axial,2023
+AXIAL_23_198_CTD003_Background_CTD_background_REP2_PES02_SHIPBOARD_18S,CTD003,Background,CTD,background,REP2,PES02,SHIPBOARD,Background,background,1200,REP2,45.925,-130.0495,NA,NA,65300,Axial,2023
+AXIAL_23_199_CTD003_Background_CTD_background_REP3_PES02_SHIPBOARD_18S,CTD003,Background,CTD,background,REP3,PES02,SHIPBOARD,Background,background,1200,REP3,45.925,-130.0495,NA,NA,NA,Axial,2023
+AXIAL_23_200_CTD004_IntlDist_CTD_plume_Niskin_PES02_SHIPBOARD_18S,CTD004,IntlDist,CTD,plume,Niskin,PES02,SHIPBOARD,International District,peak plume,1498,Niskin,45.92638333,-129.9799667,NA,NA,NA,Axial,2023
+AXIAL_23_201_CTD004_IntlDist_CTD_plume_Niskin_PES02_SHIPBOARD_18S,CTD004,IntlDist,CTD,plume,Niskin,PES02,SHIPBOARD,International District,plume top,1489,Niskin,45.92638333,-129.9799667,NA,NA,43100,Axial,2023
+AXIAL_23_202_CTD004_IntlDist_CTD_plume_Niskin_PES02_SHIPBOARD_18S,CTD004,IntlDist,CTD,plume,Niskin,PES02,SHIPBOARD,International District,plume top,1489,Niskin,45.92638333,-129.9799667,NA,NA,NA,Axial,2023

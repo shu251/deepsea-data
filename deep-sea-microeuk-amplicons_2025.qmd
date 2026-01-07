@@ -1,0 +1,288 @@
+---
+title: "Deep-sea amplicons"
+editor: source
+---
+
+# Summary & usage
+
+Upload and update metadata associated with deep-sea metabarcoding datasets.
+
+# Set up
+
+```{r}
+# | warning: false
+library(tidyverse); library(readxl)
+```
+
+## Notes on local locations of critical metadata.
+
+*Mid-Cayman Rise 2020*
+Sample information: `../Mid-Cayman_Rise/midcayman-rise-microeuk/input-data/samplelist-metadata.csv`
+Eukaryote cell counts: `../Mid-Cayman_Rise/midcayman-rise-microeuk/input-data/euk-counts-compiled.txt`
+
+
+*Axial Seamount 2023*
+Sample information: `../axial-amplicons-2023/metadata-axial-2023.xlsx`
+Eukaryote cell counts: `../Axial-2023-cell-counts/axial_euk_cell_counts_sept15.csv`
+Prokaryote cell counts: `../Axial-2023-cell-counts/prok-counts-sept15_2025.csv`
+
+# Updates
+
+## September 2025
+
+Adding Axial seamount data.
+
+```{r}
+# Import biotic data
+axial_biotic <- read_excel("../axial-amplicons-2023/metadata-axial-2023.xlsx", sheet = "biotic")
+
+axial_metadata_samples <- read_excel("../axial-amplicons-2023/metadata-axial-2023.xlsx", sheet = "metadata") %>%
+  select(-NUM, -OLD_NAME_ARCHIVE) %>%
+  left_join(axial_biotic) %>%
+  select(-starts_with("lat_long"), -description_1, -Description_2, -DATE,
+       -primer, -target_population, -lab_num) %>%
+  add_column(site = "Axial") %>%
+  mutate(year = case_when(`AXIAL YEAR` == "AXIAL_22" ~ 2022,
+                          `AXIAL YEAR` == "AXIAL_23" ~ 2023),
+         lat = as.numeric(lat),
+         long = as.numeric(long)) %>%
+  # separate(COORDINATES_mod, c("lat", "long"), sep = ".N.") %>%
+  select(-`AXIAL YEAR`)
+
+glimpse(axial_metadata_samples)
+unique(axial_metadata_samples$year)
+```
+
+Mid-Cayman Rise, Gorda Ridge, and other archived samples.
+
+```{r}
+survey_2024 <- read.delim("../microeuks_deepbiosphere_datamine/microeuk-amplicon-survey/data-input/samplelist-metadata.txt", na.strings = "")
+head(survey_2024)
+unique(survey_2024$SAMPLE)
+```
+
+```{r}
+head(survey_2024)
+all_metadata <- survey_2024 %>%
+  mutate(COORDINATES_mod = str_replace_all(COORDINATES, " N", ", "),
+         COORDINATES_mod = str_replace_all(COORDINATES_mod, " W", "")) %>%
+  separate(COORDINATES_mod, c("lat", "long"), sep = ", ") %>%
+  mutate(sample_type = case_when(
+           SAMPLETYPE == "Plume" ~ "plume",
+           SAMPLETYPE == "Background" ~ "background",
+           SAMPLETYPE == "Vent" ~ "vent",
+           Sample_or_Control == "Control" ~ "control",
+           SAMPLETYPE == "Microcolonizer" ~ "microcolonizer",
+           SAMPLETYPE == "Incubation" ~ "incubation"),
+         processing = case_when(
+           grepl("Axial_", SAMPLE) ~ "HOG",
+           grepl("GordaRidge", SAMPLE) ~ "SUPR",
+           grepl("_GR_", SAMPLE) ~ "Microcolonizer",
+           grepl("_MCR_", SAMPLE) ~ "HOG"),
+         long = case_when(
+           (SITE == "Axial" | SITE == "GordaRidge") ~ (as.numeric(long) * (-1)),
+           TRUE ~ as.numeric(long)),
+         depth = as.numeric(DEPTH),
+         prok = as.numeric(ProkConc),
+         lat = as.numeric(lat)) %>%
+  add_column(filter = "PES02_sterivex") %>%
+  select(SAMPLE_NAME = SAMPLE, dive_ctd = SAMPLEID,
+         sample_name = VENT, collection_method = Type, sample_type,
+         sample_identifier = Type, filter, processing,
+         location_name = VENT, depth_category = SAMPLETYPE,
+         depth, fluid_origin = Type, lat, long,
+         pH, temp, prok, site = SITE, year = YEAR) %>%
+  add_row(axial_metadata_samples)
+colnames(all_metadata)
+```
+
+```{r}
+# write.csv(all_metadata, file = "input-data/all_metadata_sep2025.csv", row.names = FALSE)
+```
+
+## January 2026
+
+Update to include eukaryote cell counts from Axial 2023 and MCR 2020.
+```{r}
+all_metadata <- read.csv("metadata-files/all_metadata_sep2025.csv")
+```
+
+
+### Import eukaryote cell counts 
+```{r}
+# euk_mcr <- read_delim("../Mid-Cayman_Rise/midcayman-rise-microeuk/input-data/euk-counts-compiled.txt")
+# glimpse(euk_mcr)
+load("../Mid-Cayman_Rise/midcayman-rise-microeuk/input-data/raw-avg-eukcount.RData", verbose = TRUE)
+head(counts_cellsml_avg)
+# unique(counts_cellsml_avg$VA)
+mcr_euk <- counts_cellsml_avg |> 
+  filter(TimePoint == "T0" | TimePoint == "T1") |> 
+  select(Site, Name, VARIABLE, MEAN) |> 
+  pivot_wider(names_from = VARIABLE, values_from = MEAN, values_fn = mean) |> 
+  mutate(site = str_replace_all(Site, "VD", "VonDamm")) |> 
+  mutate(site = str_replace_all(site, "OMT", "OldManTree")) |> 
+  select(site, location_name = Name, ends_with("CONC"))
+mcr_euk
+```
+```{r}
+unique(mcr_euk$location_name)
+unique((all_metadata |> filter(year == 2020))$location_name)
+```
+
+Add to metadata
+```{r}
+w_mcr <- all_metadata |> 
+  left_join(mcr_euk)
+  
+# View(w_mcr)
+```
+
+
+### Import euk cell counts from Axial
+
+```{r}
+euk_axial <- read.csv("../Axial-2023-cell-counts/axial_euk_cell_counts_sept15.csv") |>
+  select(-X, -area_chamber, nanoCONC = CELLS_PER_ML_less20, microCONC = CELLS_PER_ML_more20, eukCONC = CELLS_PER_ML_total) |> 
+  add_column(year = 2023) |> add_column(site = "Axial")
+head(euk_axial)
+unique(euk_axial$SAMPLE)
+```
+```{r}
+# View(w_mcr |> filter(year == 2023) |> select(dive_ctd, depth_category, location_name) |> distinct())
+```
+
+
+```{r}
+unique(euk_axial$EXPID)
+unique((w_mcr |> filter(year == 2023))$location_name)
+```
+
+
+Modify euk cell count table.
+```{r}
+euk_axial_mod <- euk_axial |> 
+  separate(SAMPLE, into=c("tmp1", "tmp2", "collect"), sep = "-") |> 
+  mutate(dive_ctd = case_when(
+    grepl("CTD0", tmp1) ~ tmp1,
+    (tmp1 == "J2") ~ paste(tmp1, tmp2, sep = "")
+  )) |> 
+  mutate(collection_method = case_when(
+    grepl("CTD0", tmp1) ~ "CTD",
+    collect == "Above" ~ "CTD",
+    TRUE ~ collect
+  )) |> 
+  mutate(sample_name = case_when(
+    dive_ctd == "CTD002" ~ "ASHES",
+    dive_ctd == "CTD003" ~ "Background",
+    dive_ctd == "CTD004" ~ "IntlDist",
+    EXPID == "Marker 113" ~ "Mkr113",
+    EXPID == "Marker 33" ~ "Mkr33",
+    EXPID == "Bag City" ~ "BagCity",
+    TRUE ~ EXPID
+  )) |> 
+  mutate(location_name = case_when(
+    grepl("CTD0", dive_ctd) ~ sample_name,
+    TRUE ~ EXPID
+  )) |> 
+  mutate(depth_category = case_when(
+    EXPID == "Oxycline" ~ "oxycline",
+    EXPID == "30 m above plume" ~ "30m above",
+    EXPID == "Below plume" ~ "under plume",
+    EXPID == "Peak plume" ~ "peak plume",
+    EXPID == "EuphoticSubeuphotic" ~ "euphotic",
+    EXPID == "Top of plume" ~ "plume top",
+    EXPID == "BSW" ~ "background",
+    collect == "Above" ~ "above vent",
+    TRUE ~ "diffuse"
+  ))
+
+```
+Compute averages and add to metadata.
+```{r}
+axial_mod_2 <- euk_axial_mod |> 
+  pivot_longer(cols = ends_with("CONC")) |> 
+  group_by(site, dive_ctd, collection_method, sample_name, location_name, depth_category, year, name) |> 
+  summarise(MEAN_ACROSS_REPS = mean(value)) |> 
+  pivot_wider(names_from = name, values_from = MEAN_ACROSS_REPS) |> ungroup()
+```
+
+```{r}
+metadata_jan26 <- w_mcr |> 
+  left_join(axial_mod_2, 
+            by = join_by(dive_ctd, sample_name, collection_method, 
+                         location_name, depth_category, site, year)) |> 
+  mutate(eukCONC = coalesce(eukCONC.x, eukCONC.y),
+         micrCONC = coalesce(microCONC.x, microCONC.y),
+         nanoCONC = coalesce(nanoCONC.x, nanoCONC.y)) |> 
+  select(-ends_with(".x"), -ends_with(".y"))
+```
+
+
+```{r}
+# write.csv(metadata_jan26, file = "metadata-files/all_metadata_jan2026.csv")
+```
+
+
+# Curate taxonomy curation
+
+Last update: October 2025
+```{r}
+tax <- read.delim(file = "../axial-amplicons-2023/input-data/taxonomy.tsv", sep = "\t")
+# head(tax)
+```
+
+Curate taxonomy using the original tax tsv file.
+
+```{r}
+myzo_18s <- c("Perkinsea", "Chrompodellids", "Apicomplexa")
+supergroup_list <- c("Stramenopiles", "Rhizaria", "Alveolata", "Opisthokonta", "Ancyromonadida")
+supergroup0_list <- c("Archaeplastida", "CRuMs", "Provora", "Cryptista")
+
+tax_refine <- tax %>% 
+  # select(Taxon) %>% distinct() %>%
+  separate(Taxon, into = c("Domain", "Supergroup_0","Supergroup", "Phylum", "Class", "Order" ,"Family", "Genus_spp"), remove = FALSE, sep = ";") %>% 
+  filter(Domain == "Eukaryota") %>% 
+  mutate(SUPERGROUP_PHYLUM = case_when(
+    ## NAs!
+    (is.na(Supergroup) & is.na(Supergroup_0)) ~ "Eukaryote-Unannotated",
+    (is.na(Supergroup) & !(is.na(Supergroup_0))) ~ paste(Supergroup_0, "Unannotated", sep = "-"),
+    (!(is.na(Supergroup)) & is.na(Supergroup_0)) ~ paste(Supergroup, "Unannotated", sep = "-"),
+    (is.na(Phylum) & is.na(Supergroup)) ~ paste(Supergroup_0, "Unannotated", sep = "-"),
+    Supergroup_0 == "Eukaryota_X" ~ "Eukaryote-Unannotated",
+    # Alveolata
+    Class == "Syndiniales" ~ paste(Supergroup, Class, sep = "-"),
+    Phylum %in% myzo_18s ~ "Alveolata-Myzozoa",
+    Phylum == "Dinoflagellata" ~ "Alveolata-Dinophyta",
+    (Supergroup == "Alveolata" & grepl("_X", Phylum)) ~ "Alveolata-Unannotated",
+    (Supergroup == "Alveolata" & is.na(Phylum)) ~ "Alveolata-Unannotated",
+    # Stramenopiles
+    (Supergroup == "Stramenopiles" & grepl("_X", Phylum)) ~ "Stramenopiles-Unannotated",
+    (Supergroup == "Stramenopiles" & is.na(Phylum)) ~ "Stramenopiles-Unannotated",
+    # Rhizaria
+    (Supergroup == "Rhizaria" & grepl("_X", Phylum)) ~ "Rhizaria-Unannotated",
+    (Supergroup == "Rhizaria" & is.na(Phylum)) ~ "Rhizaria-Unannotated",
+    # Amoebozoa
+    Supergroup_0 == "Amoebozoa" & is.na(Supergroup) ~ "Amoebozoa-Unannotated",
+    Supergroup_0 == "Amoebozoa" ~ paste(Supergroup_0, Supergroup, sep = "-"),
+    Supergroup == "Discosea" ~ "Amoebozoa-Lobosa",
+    # 
+    Supergroup == "Apusomonada" ~ "Apusozoa-Apusomonadida",
+    Supergroup == "Breviatea" ~ "Breviatea-Unannotated",
+    Supergroup == "Picozoa" ~ "Picozoa",
+    Supergroup == "Ancyromonadida" ~ "Ancyromonadida",
+    Supergroup_0 == "Excavata" ~ paste("Excavata", Supergroup, sep = "-"),
+    Supergroup_0 == "Hacrobia" ~ paste("Hacrobia", Supergroup, sep = "-"),
+    #
+    Supergroup %in% supergroup_list ~ paste(Supergroup, Phylum, sep = "-"), 
+    Supergroup_0 %in% supergroup0_list ~ paste(Supergroup_0, Supergroup, sep = "-"), 
+    Supergroup == "Telonemia" ~ "Telonemia"
+    ))
+# select(-Genus_spp) %>% distinct()
+# unique(tax_refine$SUPERGROUP_PHYLUM)
+```
+
+# Information
+
+```{r}
+sessionInfo()
+```
